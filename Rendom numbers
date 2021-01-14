@@ -1,0 +1,22 @@
+public class Main
+{
+
+
+// Genrate the rendom numbers
+  // first solution
+  public static void main (String[]args){
+      
+int min = 200;  
+int max = 400;  
+      
+      
+      System.out.println("1st Random Number: " + Math.random());  
+      
+      // this is for specific renge
+      int b = (int)(Math.random()*(max-min+1)+min);  
+      System.out.println(b);  
+   
+   
+
+}
+}
