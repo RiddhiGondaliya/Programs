@@ -1,0 +1,49 @@
+public class Main
+{
+
+  /* first solution
+  public static void main (String[]args){
+      
+      int num =153, reminder, result =0, orignalnumber;
+      orignalnumber = num;
+      
+      while(orignalnumber != 0){
+          reminder = orignalnumber % 10;
+          result += Math.pow(reminder,3);
+          orignalnumber/=10;
+      }
+      
+      if(result == num)
+          System.out.println("Armstrong");
+      else
+      System.out.println("not Armstrong");
+
+ 
+}*/
+
+   //second solution
+   public static void main (String[]args){
+      int c=0,a,temp;  
+    int n=153;//It is the number to check armstrong  
+    temp=n;  
+    while(n>0)  
+    {  
+    a=n%10;  
+    n=n/10;  
+    c=c+(a*a*a);  
+    }  
+    if(temp==c)  
+    System.out.println("armstrong number");   
+    else  
+        System.out.println("Not armstrong number");   
+   }  
+}  
+     
+     
+       
+       
+       
+   }
+   
+
+}
