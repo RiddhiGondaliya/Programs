@@ -1,0 +1,39 @@
+//Divide a string in N equal parts
+public class Main
+{
+
+  public static void stringParts (String str, int n)
+  {
+    int len = str.length ();
+    int string_parts;
+
+    //check if the string is dividing into equals parts or NoSuchMethodError
+    if (len % n != 0)
+      {
+	System.out.println ("this string is not dividable with " + n);
+	return;
+      }
+
+    string_parts = len / n;
+    for (int i = 0; i < len; i++)
+      {
+	if (i % string_parts == 0)
+	  {
+	    System.out.println();
+	    System.out.print(str.charAt(i));
+	  }
+      }
+
+  }
+  public static void main (String[]args)
+  {
+
+
+    String strs = "aaaabbbbcccc";
+    stringParts(strs, 3);
+
+
+
+
+  }
+}
