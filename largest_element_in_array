@@ -1,0 +1,42 @@
+import java.util.Arrays; 
+public class Main
+{
+    //iterative way
+/*	public static void main(String[] args) {
+	int [] arr = new int [] {25, 11, 7, 75, 56};  
+	 
+	 int max = arr[0];
+	 
+	 for(int i=0; i<arr.length;i++){
+	     if(arr[i]>max)
+	     max = arr[i];
+	     
+	 }
+	 System.out.println("maximume element is :"+max);
+	
+	}
+	
+	//Method 2: Java 8 Stream 
+	public static void main(String[] args) {
+	int [] arr = new int [] {25, 11, 7, 75, 56};
+	
+	int max = Arrays.stream(arr).max().getAsInt();
+	System.out.println("max is" + max);
+	
+	}*/
+	
+	
+	//Method 3 : (Sorting)
+	static int largest(int arr[], int n){
+	    Arrays.sort(arr);
+	    return arr[n-1];
+	    
+	}
+	public static void main(String[] args) {
+	 int [] arr = new int [] {25, 11, 7, 75, 56};
+	 int n = arr.length;
+	 System.out.println(largest(arr,n));
+	 
+	}
+	
+}
