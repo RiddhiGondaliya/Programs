@@ -1,0 +1,32 @@
+public class Main
+{
+
+  // first solution 
+  public static void main (String[]args)
+  {
+    int num = 22;
+    int sum = 0, reverse, temp;
+
+
+      temp = num;
+    while (num > 0)
+      {
+
+	reverse = num % 10;
+	sum = (sum * 10) + reverse;
+	num = num / 10;
+      }
+
+    if (temp == sum)
+      {
+	System.out.println ("number is palindrom");
+      }
+    else
+      {
+	System.out.println ("number is not palindrom");
+      }
+
+  }
+
+}
+//https://www.programiz.com/java-programming/examples/palindrome-number
