@@ -1,0 +1,53 @@
+public class Main
+{
+
+  // first solution 
+  public static void main (String[]args)
+  {
+
+    char c;
+    // uppercase
+    /*for (c = 'A'; c <= 'Z'; ++c)
+       System.out.print (c + " ");
+       // Lowercase
+
+       for (c = 'a'; c <= 'z'; ++c)
+       System.out.println (c + " ");
+
+
+
+       //ASCII value of upper case Alphabets letters are between 65 b 90
+
+       for(c = 65; c <= 90; ++c)
+       System.out.print (c + " ");
+
+
+       //ASCII value of lower case Alphabets letters are between 97 b 122
+       for(c = 97; c <= 122; ++c)
+       System.out.print (c + " "); 
+
+
+       // third solution 
+
+       // uppercase
+
+       char chr = 65;
+
+       while(chr<=90){
+       System.out.print(chr+ " ");
+       chr++;
+       } */
+
+    //Lowercase
+
+    char chr = 97;
+
+    while (chr <= 122)
+      {
+	System.out.print (chr + " ");
+	chr++;
+      }
+
+
+  }
+}
