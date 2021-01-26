@@ -1,0 +1,58 @@
+public class Main
+{
+
+  // first solution 
+  public static void main (String[]args)
+  {
+
+    //first soluion
+
+	   /** int n = 40;
+	    
+	    
+	    if(n % 2 == 0){
+	        
+	        System.out.println("even");
+	        
+	    }
+	    else{
+	        
+	         System.out.println("not even");
+	    }
+	    
+	    //second soluion
+	    int n = 89;
+	    
+	    boolean iseven = (n%2 == 0)? true : false;
+	    
+	    String x = iseven ? "even" : "odd";
+	    System.out.println(x);*/
+
+
+    // third solution
+    int x = 3;
+      oddEven (x);
+
+    int xx = 56;
+      oddEven (xx);
+
+  }
+
+  static void oddEven (int x)
+  {
+    if (x % 2 == 0)
+      {
+	System.out.println ("even =" + x);
+      }
+    else
+      {
+	System.out.println ("odd = " + x);
+      }
+
+  }
+
+
+
+
+
+}
