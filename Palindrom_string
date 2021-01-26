@@ -1,0 +1,56 @@
+public class Main
+{
+
+  // first solution 
+ /* public static void main (String[]args)
+  {
+   String str = "red";
+   
+   StringBuilder sb = new StringBuilder(str);
+   sb.reverse();
+   String rev = sb.toString();
+   if(str.equals(rev))
+   {
+       System.out.println("palindrom");;
+   }
+   else {
+      System.out.println("not palindrom");;
+   }
+
+
+}
+}
+
+// second solution
+static boolean isPalindrom(String str){
+    
+    int i =0, j = str.length()-1;
+    
+   while(i < j){
+       
+       if(str.charAt(i) != str.charAt(j))
+       
+       return false;
+       i++;
+       j--;
+   }
+    return true;
+}
+  
+}
+//second solution
+
+
+     public static void main (String[]args){
+         
+         String str = "lol";
+         
+         if(isPalindrom(str))
+             System.out.println("yes");
+         else
+         System.out.println("No");
+         
+     //GFG: geeksforgeeks.org/java-program-to-check-whether-a-string-is-a-palindrome/
+    
+}
+*
