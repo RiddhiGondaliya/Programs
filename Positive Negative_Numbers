@@ -1,0 +1,34 @@
+public class Main
+{
+
+  // first solution 
+  public static void main (String[]args)
+  {
+
+    int a = 4;
+
+    /*
+       if(a < 0){
+
+       System.out.println("Negative" +a);
+
+       }
+       else if(a > 0){
+       System.out.println("Positive" + a);
+       }
+       else{
+
+       System.out.println(" number is a " +a);
+       } */
+    // second solution
+
+    int temp = 0;
+
+    boolean isPositive = (a < temp) ? true : false;
+    String z = isPositive ? "Negative" : "Positive";
+      System.out.println ("numbers is" + z);
+
+
+
+  }
+}
