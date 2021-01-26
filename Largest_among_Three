@@ -1,0 +1,42 @@
+public class Main
+{
+
+  // first solution 
+  public static void main (String[]args)
+  {
+
+    int a = 45;
+    int b = 3;
+    int c = 78;
+    int temp = 0, largest;
+
+	    /**if(a >= b && a >= c ){
+	        System.out.println(a +"is the largest number");
+	    }
+	    else if(b >= a && b>=c){
+	        System.out.println(b +"is the largest number");
+	    }
+	    else{
+	        
+	        System.out.println(c +"is the largest number");
+	    }*/
+
+    // second solution
+
+    //comparing a and b and storing the largest number in a temp variable  
+
+    /*temp = a>b? a: b;
+
+       largest = c>temp? c: temp;
+
+       System.out.println("largest num is" + largest); */
+
+
+    // third solution
+
+      largest = c > (a > b ? a : b) ? c : ((a > b) ? a : b);
+      System.out.println ("largest num is" + largest);
+
+
+  }
+}
